@@ -3290,10 +3290,10 @@ input.main-search-input::placeholder {
     gap: 10px;
   }
   .logo-image img{
-    height: 70px;
+    height: 100px;
   }
   .header-logo img{
-    height: 70px;
+    height: 100px;
   }
 }
 .main-header-wrapper .logo-image {
@@ -4291,7 +4291,7 @@ input.main-search-input::placeholder {
 }
 
 .offcanvas__logo a img {
-  width: 80px;
+  width: 60px;
 }
 
 .offcanvas__wrapper {
