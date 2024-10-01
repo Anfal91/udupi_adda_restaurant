@@ -3185,10 +3185,10 @@ input.main-search-input::placeholder {
   z-index: 99;
 }
 .logo-image img{
-  height: 50px;
+  height: 100px;
 }
 .header-logo img{
-  height: 50px;
+  height: 100px;
 }
 .header-section-3 .main-header-wrapper .logo-image {
   padding: 0 100px 0 120px;
@@ -3288,6 +3288,12 @@ input.main-search-input::placeholder {
 @media (max-width: 767px) {
   .main-header-wrapper {
     gap: 10px;
+  }
+  .logo-image img{
+    height: 70px;
+  }
+  .header-logo img{
+    height: 70px;
   }
 }
 .main-header-wrapper .logo-image {
@@ -4285,7 +4291,7 @@ input.main-search-input::placeholder {
 }
 
 .offcanvas__logo a img {
-  width: 150px;
+  width: 80px;
 }
 
 .offcanvas__wrapper {
