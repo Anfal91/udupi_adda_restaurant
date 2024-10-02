@@ -1319,6 +1319,9 @@ textarea.form-control:focus {
 .bg-color2 {
   background-color: var(--bg2) !important;
 }
+input.bg-color2{
+  color: var(--theme) !important;
+}
 
 .bg-color3 {
   background-color: #181818;
@@ -5147,7 +5150,11 @@ input.main-search-input::placeholder {
 }
 .contact-box.style1 .contact-icon {
   margin-bottom: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: var(--theme);
 }
+
 .contact-box.style1 .contact-icon img {
   display: block;
   margin: 0 auto;

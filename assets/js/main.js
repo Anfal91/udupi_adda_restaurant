@@ -203,9 +203,12 @@ JS TABLE OF CONTENTS
                 spaceBetween: 30,
                 speed: 2000,
                 loop: true,
+                pauseOnMouseEnter: true,
                 autoplay: {
                     delay: 2000,
                     disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+
                 },
                 breakpoints: {
                     1499: {
@@ -394,11 +397,11 @@ JS TABLE OF CONTENTS
         if ($('.popularDishesSliderOne').length > 0) {
             const popularDishesSliderOne = new Swiper(".popularDishesSliderOne", {
                 spaceBetween: 30,
-                speed: 2000,
+                speed: 1000,
                 loop: true,
                 centerSlides: true,
                 autoplay: {
-                    delay: 2000,
+                    delay: 1000,
                     disableOnInteraction: false,
                 },
                 breakpoints: {
@@ -455,12 +458,12 @@ JS TABLE OF CONTENTS
                     disableOnInteraction: false,
                 },
                 breakpoints: {
-                    992: {
-                        slidesPerView: 6,
-                    },
-                    767: {
-                        slidesPerView: 5,
-                    },
+                    // 992: {
+                    //     slidesPerView: 6,
+                    // },
+                    // 767: {
+                    //     slidesPerView: 5,
+                    // },
                     575: {
                         slidesPerView: 3,
                     },
