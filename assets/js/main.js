@@ -243,6 +243,49 @@ JS TABLE OF CONTENTS
         }
 
 
+        if ($('.addon-custom-slider').length > 0) {
+            const bestFoodSlider = new Swiper(".addon-custom-slider", {
+                spaceBetween: 30,
+                speed: 8000,
+                loop: true,
+                pauseOnMouseEnter: true,
+                autoplay: {
+                    delay: 100,
+                    disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+
+                },
+                breakpoints: {
+                    1499: {
+                        slidesPerView: 1,
+                    },
+                    1399: {
+                        slidesPerView: 1,
+                    },
+                    1199: {
+                        slidesPerView: 1,
+                    },
+                    991: {
+                        slidesPerView: 1,
+                    },
+                    767: {
+                        slidesPerView: 1,
+                    },
+                    575: {
+                        slidesPerView: 1,
+                    },
+                    0: {
+                        slidesPerView: 1,
+                    },
+                },
+                pagination: {
+                    el: '.bestFoodItems-pagination',
+                    clickable: true,
+                    bulletClass: 'swiper-pagination-bullet', // Bullet class
+                    bulletActiveClass: 'swiper-pagination-bullet-active', // Active bullet class
+                },
+            });
+        }
 
         /*-----------------------------------
             10. Testimonial Slider     
