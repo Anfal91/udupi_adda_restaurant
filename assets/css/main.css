@@ -1383,6 +1383,10 @@ input.bg-color2{
 }
 
 /* 09.MeanMenu */
+.add-item-btn{
+  background-color: var(--bg2);
+  padding: 10px;
+}
 .mean-container a.meanmenu-reveal {
   display: none;
 }
@@ -2125,7 +2129,30 @@ input.bg-color2{
   font-weight: 400;
   line-height: 26px;
 }
-
+.add-ons-list{
+  background: var(--bg2);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.customization-list{
+  background: var(--bg2);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.add-ons-list label span{
+  color: black;
+}
+.customization-list label span{
+  color: black;
+}
+.add-cart-btn{
+  width: 100%;
+  text-align: center;
+}
 .star ul {
   display: flex;
   align-items: center;
@@ -2430,12 +2457,9 @@ input[type=number] {
 }
 
 input[type=checkbox] {
-  visibility: hidden;
-  opacity: 0;
   display: inline-block;
   vertical-align: middle;
-  width: 0;
-  height: 0;
+  width: 20px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -9322,7 +9346,11 @@ input.main-search-input::placeholder {
   right: 44px;
   z-index: 1;
 }
-
+.add-on-slider{
+  margin-top: 0 !important;
+  padding:0 !important;
+  background-color: white !important;
+}
 .single-food-items {
   padding: 24px 25px 30px;
   margin-top: 140px;
@@ -9351,6 +9379,14 @@ input.main-search-input::placeholder {
 }
 .single-food-items .item-content {
   margin-top: 24px;
+}
+.single-food-items .item-content label {
+  text-align: left;
+}
+.single-food-items .add-on-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 .single-food-items .item-content h3 {
   color: var(--title);
@@ -10903,7 +10939,7 @@ input.main-search-input::placeholder {
 .tagcloud li a {
   display: inline-flex;
   padding: 10px 16px;
-  background: var(--bg2);
+  background: white;
   color: var(--title);
   font-family: var(--title-font);
   font-size: 14px;
