@@ -2136,6 +2136,11 @@ input.bg-color2{
     padding: 10px;
     border-bottom: 1px solid;
 }
+.add-on-container{
+  display: flex;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
 .customization-list{
   background: var(--bg2);
     display: flex;
@@ -10924,7 +10929,7 @@ input.main-search-input::placeholder {
 .tagcloud {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  overflow-y: auto;
 }
 .tagcloud h6 {
   font-size: 20px;
@@ -10938,6 +10943,7 @@ input.main-search-input::placeholder {
 }
 .tagcloud li a {
   display: inline-flex;
+  width: max-content;
   padding: 10px 16px;
   background: white;
   color: var(--title);

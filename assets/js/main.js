@@ -245,16 +245,11 @@ JS TABLE OF CONTENTS
 
         if ($('.addon-custom-slider').length > 0) {
             const bestFoodSlider = new Swiper(".addon-custom-slider", {
-                spaceBetween: 30,
+                spaceBetween: 10,
                 speed: 8000,
-                loop: true,
+                loop: false,
                 pauseOnMouseEnter: true,
-                autoplay: {
-                    delay: 100,
-                    disableOnInteraction: false,
-                pauseOnMouseEnter: true,
-
-                },
+                autoplay: false,
                 breakpoints: {
                     1499: {
                         slidesPerView: 1,

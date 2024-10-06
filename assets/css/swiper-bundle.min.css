@@ -31,7 +31,8 @@
     z-index: 1
 }
 .custom-slide{
-    width: 100% !important;
+    width: 50% !important;
+    margin-right: 10px;
 }
 .swiper-vertical>.swiper-wrapper {
     flex-direction: column
