@@ -31,7 +31,7 @@
     z-index: 1
 }
 .custom-slide{
-    width: 50% !important;
+    width: auto !important;
     margin-right: 10px;
 }
 .swiper-vertical>.swiper-wrapper {

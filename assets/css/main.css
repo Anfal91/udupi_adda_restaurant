@@ -9387,6 +9387,7 @@ input.main-search-input::placeholder {
 }
 .single-food-items .item-content label {
   text-align: left;
+  margin-right: 30px;
 }
 .single-food-items .add-on-content {
   padding: 10px;
