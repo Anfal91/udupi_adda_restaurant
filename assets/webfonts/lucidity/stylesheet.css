@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Lucidity Extras02';
+    src: url('Lucidity-Extras02.eot');
+    src: local('Lucidity Extras02'), local('Lucidity-Extras02'),
+        url('Lucidity-Extras02.eot?#iefix') format('embedded-opentype'),
+        url('Lucidity-Extras02.woff2') format('woff2'),
+        url('Lucidity-Extras02.woff') format('woff'),
+        url('Lucidity-Extras02.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucidity Psych Outline';
+    src: url('Lucidity-PsychOutline.eot');
+    src: local('Lucidity Psych Outline'), local('Lucidity-PsychOutline'),
+        url('Lucidity-PsychOutline.eot?#iefix') format('embedded-opentype'),
+        url('Lucidity-PsychOutline.woff2') format('woff2'),
+        url('Lucidity-PsychOutline.woff') format('woff'),
+        url('Lucidity-PsychOutline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucidity Extras01';
+    src: url('Lucidity-Extras01.eot');
+    src: local('Lucidity Extras01'), local('Lucidity-Extras01'),
+        url('Lucidity-Extras01.eot?#iefix') format('embedded-opentype'),
+        url('Lucidity-Extras01.woff2') format('woff2'),
+        url('Lucidity-Extras01.woff') format('woff'),
+        url('Lucidity-Extras01.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucidity Condensed';
+    src: url('Lucidity-Condensed.eot');
+    src: local('Lucidity Condensed'), local('Lucidity-Condensed'),
+        url('Lucidity-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('Lucidity-Condensed.woff2') format('woff2'),
+        url('Lucidity-Condensed.woff') format('woff'),
+        url('Lucidity-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucidity Psych';
+    src: url('Lucidity-Psych.eot');
+    src: local('Lucidity Psych'), local('Lucidity-Psych'),
+        url('Lucidity-Psych.eot?#iefix') format('embedded-opentype'),
+        url('Lucidity-Psych.woff2') format('woff2'),
+        url('Lucidity-Psych.woff') format('woff'),
+        url('Lucidity-Psych.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucidity Expand';
+    src: url('Lucidity-Expand.eot');
+    src: local('Lucidity Expand'), local('Lucidity-Expand'),
+        url('Lucidity-Expand.eot?#iefix') format('embedded-opentype'),
+        url('Lucidity-Expand.woff2') format('woff2'),
+        url('Lucidity-Expand.woff') format('woff'),
+        url('Lucidity-Expand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
